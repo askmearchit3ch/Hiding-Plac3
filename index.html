@@ -40,6 +40,17 @@
         --radius-sm: 8px;
       }
 
+      img {
+        width: 600px;
+        display: block;
+        margin: 0 auto;
+        height: auto;
+        opacity: 0.6;
+        border: 20px solid transparent; /* set a transparent border*/
+        padding: 10px;
+        border-radius: 100px;
+      }
+
       html {
         scroll-behavior: smooth;
       }
@@ -956,7 +967,7 @@
 
     <!-- ── HERO ─────────────────────────────────────────────────── -->
     <section class="hero">
-      <span class="hero-eyebrow">Faith-Based Homeless Ministry</span>
+      <span class="hero-eyebrow">Homeless Ministry</span>
       <h1>A <em>refuge</em> for those who need it most</h1>
       <p class="hero-verse">
         "You are my hiding place; you will protect me from trouble and surround
@@ -966,6 +977,13 @@
         <a href="#donate" class="btn-primary">Donate a Restoration Package</a>
         <a href="#get-involved" class="btn-outline">Get Involved</a>
       </div>
+
+      <img
+        class="image"
+        src="Hiding Plac3 Logo.jpg"
+        width="300"
+        alt="Bubble tea splashing milk coming up"
+      />
     </section>
 
     <!-- ── ABOUT ─────────────────────────────────────────────────── -->
@@ -987,7 +1005,7 @@
               Hiding Plac3 is rooted in the belief that every person deserves
               sanctuary, dignity, and the love of Christ. We reach rough
               sleepers in our community with practical care, a listening ear,
-              and the good news of the Gospel.
+              and the good news.
             </p>
             <p>
               From our Restoration Packages at Christmas, Easter, and throughout
@@ -1081,14 +1099,14 @@
         </p>
         <div class="donate-cards">
           <div class="donate-card" onclick="setAmount(10)">
-            <span class="donate-amount">£10</span>
+            <span class="donate-amount">£5</span>
             <h3>Starter Package</h3>
             <p>
               Hygiene kit, snacks, Gospel leaflet, and a salvation prayer card.
             </p>
           </div>
           <div class="donate-card featured" onclick="setAmount(25)">
-            <span class="donate-amount">£25</span>
+            <span class="donate-amount">£10</span>
             <h3>Full Restoration Package</h3>
             <p>
               Essentials, food, hygiene, scripture resources, mustard seed, and
@@ -1096,7 +1114,7 @@
             </p>
           </div>
           <div class="donate-card" onclick="setAmount(50)">
-            <span class="donate-amount">£50</span>
+            <span class="donate-amount">£20</span>
             <h3>Double Impact</h3>
             <p>
               Two complete packages — one for a rough sleeper, one for a
